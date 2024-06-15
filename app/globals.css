@@ -1,0 +1,18 @@
+@import './fonts.css';
+
+:root {
+    --primary-font: 'Inter', sans-serif;
+    --main-padding: clamp(15px, 10vw, 30px);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    grid-template-rows: repeat(100, 1fr);
+}

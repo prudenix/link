@@ -1,0 +1,11 @@
+@import url('../components/css/brand.css');
+@import url('../components/css/options.css');
+@import url('../components/css/account.css');
+
+header {
+    grid-area: 1/1/11/101;
+    display: grid;
+    grid-template-columns: 4fr 8fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 20px;
+}
