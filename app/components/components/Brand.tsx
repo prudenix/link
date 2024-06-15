@@ -5,7 +5,7 @@ function Brand() {
     return (
         <div className='brand'>
             <Image
-                src={'./images/link.svg'}
+                src={'images/link.svg'}
                 width={20}
                 height={20}
                 alt='Link Logo'
